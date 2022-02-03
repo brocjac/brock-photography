@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="English">
+<head>
+	
+<meta charset="utf-8">
+<title>Brock Photography</title>
+<link href="design.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="storeContainer">
+	<div class="tabs-content">
+		<button type="button" id="x">X</button>
+		<div id="tab-container" class="tab-container">
+			<ul class="etabs">
+				<li class="tab"><a href="#tab1">Order Form</a></li>
+				<li class="tab"><a href="#tab2">Extra Information</a></li>
+				<li class="tab"><a href="#tab3" id="tab3_link">Order Review</a></li>
+			</ul>
+			<div class="panel-container">
+				<div id="tab1">
+					<div id="dropDownContainer">Nothing in Cart</div>
+				</div>
+				<div id="tab2">
+					<form id="form1">
+						<fieldset>
+							<legend>Personal Information</legend>
+							<label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" style="width: 120px;">
+							<label for="lastName">Last Name:</label><input type="text" name="lastName" id="lastName" style="width: 140px;">
+							<label for="age">Age: </label><input type="number" name="age" id="age" style="width: 35px;">
+						</fieldset>
+						<fieldset>
+							<legend>Shipping Address</legend>
+							<label for="address">Address: </label><input type="text" name="address" id="address" style="width: 25em;"><br>
+							<label for="city">City: </label><input type="text" name="city" id="city" style="width: 100px;">
+							<label for="state">State: </label><input type="text" name="state" id="state" style="width: 20px;">
+							<label for="zip">Zip: </label><input type="text" name="zip" id="zip" style="width: 40px;">
+						</fieldset>
+					</form>
+				</div>
+				<div id="tab3">
+					<div id="receiptContainer">
+						<div id="allPicturesInReceipt">None in Cart</div><br>
+						<p class="receipt01Info">First Name:</p><div id="firstNameReview"></div>
+						<p class="receipt02Info">Last Name:</p><div id="lastNameReview"></div>
+						<p class="receipt03Info">Age:</p><div id="ageReview"></div>
+						<p>Address:</p><div id="addressReview"></div>
+						<p>City:</p><div id="cityReview"></div>
+						<p>State:</p><div id="stateReview"></div>
+						<p>Zip:</p><div id="zipReview"></div>
+
+						<div id="photoPriceAll">Total: </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="storeBackdrop"></div>
+<div id="container">
+	<div id="header">
+			<div><img src="Brock-Photography-Logo.png" class="clssecondimg" alt="Brock Photography Logo. "/></div>
+		<div id="navbar">
+			<ul>
+				<li> <a href="index.html">About Me</a></li>
+				<li> <a href="galleries.html">Galleries</a></li>
+				<li> <a href="calendar.html">Calendar</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+				<li id="cartfloat"><button type="button" id="cartshop"><span id="cartword">Cart</span><span id="illustrationOfCart"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " id="shoppingCartNumber" width="30px"></span></button></li>
+			</ul>
+		</div>
+	</div>
+	<button type="button" id="cartshopmobile"><img src="illustrations/shopping_cart.svg" alt="Shopping cart. " class="cart"></button>
+	<div class="row" id="photos">
+		<div class="column">
+			<div class="image">
+				<a href="landscapes/1.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/1.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo1" class="cartphoto"><label for="photo1" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+			<div class="image">
+				<a href="landscapes/2.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/2.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo2" class="cartphoto"><label for="photo2" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+		</div>
+		<div class="column">
+			<div class="image">
+				<a href="landscapes/3.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/3.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo3" class="cartphoto"><label for="photo3" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+			<div class="image">
+				<a href="landscapes/4.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/4.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo4" class="cartphoto"><label for="photo4" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+		</div>
+		<div class="column">
+			<div class="image">
+				<a href="landscapes/5.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/5.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo5" class="cartphoto"><label for="photo5" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+			<div class="image">
+				<a href="landscapes/6.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/6.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo6" class="cartphoto"><label for="photo6" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+		</div>
+		<div class="column">
+			<div class="image">
+				<a href="landscapes/7.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/7.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo7" class="cartphoto"><label for="photo7" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+			<div class="image">
+				<a href="landscapes/8.jpg" data-lightbox="mygallery"><img src="landscapes/thumbnail/8.jpg" alt="Sky photo of clouds and light. " class="images" style="width: 100%"></a><br>
+				<input type="checkbox" name="photo" id="photo8" class="cartphoto"><label for="photo8" class="cartLabel"><img src="illustrations/shopping_cart.svg" alt="Shopping Cart. " height="30px"></label>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>brocjac24@outlook.com
+		<br>
+		Copywrite 2019</p>
+		<a href="https://www.instagram.com/brock_productions_2434/" target="_blank">
+		<img src="illustrations/Social-media-logos.png" alt="Instagram. ">
+		</a>
+		<a href="https://www.facebook.com/Brock-Photography-2247863825329198/?modal=admin_todo_tour" target="_blank">
+		<img src="illustrations/Social-media-logos-facebook.png" alt="Facebook. ">
+		</a>
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="jquery.hashchange.min.js"></script>
+<script src="jquery.easytabs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="script_landscapes.js"></script>
+</body>
+</html>

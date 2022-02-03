@@ -1,0 +1,423 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+	box-sizing: border-box;
+}
+#container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.containerPages {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	padding: 3rem 1rem;
+	justify-content: space-between;
+	z-index: 2;
+	background: rgb(24, 24, 24);
+}
+#navbar {
+	height: 40px;
+}
+#navbar ul {
+	position: absolute;
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	overflow: hidden;
+	border-radius: .5em;
+	right: 0;
+	top: 50%;
+	transform: translate(-10%, -50%);
+}
+#navbar li {
+	float: left;
+}
+#navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16pt;
+}
+#navbar li a:hover {
+	color: #c7c7c7;
+}
+#navbar {
+	height: 40px;
+}
+#navbar ul {
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	overflow: hidden;
+	border-radius: .5em;
+}
+#navbar li {
+	float: left;
+}
+#navbar li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16pt;
+}
+#cartshop {
+	display: block;
+	padding: 5px 8px;
+	background-color: #2B2B2B;
+}
+#cartword {
+	float: left;
+	padding: 9px 7px 0;
+	font-size: 16px;
+	color: white;
+}
+#navbar ul form {
+	float: left;
+}
+.logfloat{
+	float: left;
+}
+/* Navigation all */
+.navAll {
+	position: relative;
+	z-index: 0;
+	padding: 3rem 1rem;
+	background: rgb(24, 24, 24);
+}
+#navbar {
+	height: 40px;
+}
+#navbar ul {
+	position: absolute;
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	overflow: hidden;
+	border-radius: .5em;
+	right: 0;
+	top: 50%;
+	transform: translate(-10%, -50%);
+}
+#navbar li {
+	float: left;
+}
+#navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16pt;
+}
+#navbar li button {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16pt;
+}
+#navbar li a:hover {
+	color: #c7c7c7;
+}
+#navbar {
+	height: 40px;
+}
+#navbar ul {
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	overflow: hidden;
+	border-radius: .5em;
+}
+#navbar li {
+	float: left;
+}
+#navbar li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16pt;
+}
+
+/*------------------ home page ----------------------*/
+.container {
+	height: 100vh;
+}
+.container img {
+	width: 100%;
+	height: 110vh;
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	filter: brightness(65%);
+}
+.mainTitle {
+	position: absolute;
+	color: #FFFFFF;
+	top: 35%;
+	left: 13%;
+	font-size: 6rem;
+	/*transform: translate(-35%, -40%);*/
+}
+.titleDescription {
+	position: absolute;
+	color: #FFFFFF;
+	top: 46.5%;
+	left: 13%;
+	font-size: 2rem;
+	/*transform: translate(-35%, -40%);*/
+}
+.downArrow {
+	position: absolute;
+	height: 50px;
+	left: 50%;
+	top: 90%;
+	transform: translate(-90%, -50%);
+}
+.downArrow:hover {
+	cursor: pointer;
+}
+
+/*------------------- home page content ---------------------*/
+.content {
+	padding: 1em 15em 0 15em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: #FFFFFF;
+	background: rgb(24, 24, 24);
+	height: 100vh;
+	z-index: 2;
+}
+#selfPortrait {
+	float: left;
+	margin-right: 1em;
+	display: block;
+}
+.testimonial div {
+	text-align: left;
+	display: block;
+}
+
+
+/*------------------ footer home ---------------------*/
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	padding: 2em;
+    text-align: center;
+	transform: translate(-50%);
+}
+#footerGalleries {
+	padding: 2em;
+	text-align: center;
+	margin-top: 300px;
+}
+#footerCalendar {
+	padding: 2em;
+	text-align: center;
+	margin-top: 500px;
+}
+footer a {
+	text-decoration: none;
+}
+
+/*------------------ footer ---------------------*/
+.footerAll {
+	position: relative;
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+footer a {
+	text-decoration: none;
+}
+
+/* cart button */
+#navbar #cartshop {
+	display: block;
+	padding: 5px 8px;
+	background: rgb(24, 24, 24);
+}
+#navbar #cartword {
+	float: left;
+	padding: 9px 7px 0;
+	font-size: 1em;
+	color: white;
+}
+#navbar #cartfloat{
+	float: right;
+}
+#navbar #cartfloat:hover{
+	color: #000000;
+}
+#shoppingCartNumber {
+	padding-top: 10px;
+}
+@media screen and (min-width: 540px) {
+	#cartshopmobile {
+		display: none;
+	}
+}
+@media screen and (max-width: 540px) {
+	#navbar #cartshop, #cartword {
+		display: none;
+	}
+	#cartshopmobile {
+		position: fixed;
+		background-color: #2B2B2B;
+		padding: .3em;
+		width: 50px;
+		bottom: 25px;
+		right: 25px;
+		border-radius: .5em;
+	}
+	#cartshopmobile:hover {
+		background-color: black;
+		cursor: pointer;
+	}
+}
+
+/*-------------------- images ---------------------*/
+.rowGal {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+/* Create four equal columns that sits next to each other */
+.columnGal {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+.columnGal img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	margin-bottom: -20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.columnGal {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.columnGal {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+/*-----------------------------------galleries---------------------------------------------*/
+#contentGal {
+	height: 300px;
+	width: 100%;
+}
+.galleries {
+	position: absolute;
+	padding-top: 10px;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+.imgGallery {
+	display: block;
+	object-fit: cover;
+}
+.overlay {
+	margin-top: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 300px;
+	width: 300px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(0,0,0,0.71);
+}
+.containerImg:hover .overlay {
+	opacity: 1;
+	width: 300px;
+	cursor: pointer;
+}
+.imgText {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* add address */
+.addAddress {
+	text-align: center;
+}
+.addAddress input {
+	margin: 10px;
+}
+
+
+/*---------------------- Contact -------------------------------*/
+#contact {
+	text-align: center;
+}
+
+/* -------------------- Login/Sign Up ----------------------*/
+.form-group {
+	margin-bottom: 1em;
+}
+
+/*--------------------- Buy Photo Page ------------*/
+.imageBuy {
+	margin: 0 auto;
+	display: block;
+	height: 550px;
+}
+.imageBuyContainer {
+	padding-bottom: 130px;
+}
+.imageTitle {
+	text-align: center;
+}
+.frameSize {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: 750px;
+}
+.addToCart {
+	position: absolute;
+	left: 50%;
+	top: 810px;
+	transform: translate(-50%);
+}
+.frameSize label select {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+

@@ -1,0 +1,19 @@
+/*--------------- users --------------*/
+
+/*--------------- user admin details -----------*/
+.grid {
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+
+/* --------------- invoice page ----------------*/
+.informationOrder{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.informationOrder div {padding: 10px 0 10px 0; text-align: left;}
+.informationOrder div:nth-child(1){grid-area: 1 / 1;}
+.informationOrder div:nth-child(5){grid-area: 2 / span 3;}
+.informationOrder div p:nth-child(1){
+    font-weight: 500;
+}
