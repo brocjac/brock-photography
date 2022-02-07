@@ -88,6 +88,15 @@ nav {
 .logfloat{
 	float: left;
 }
+.btnSubmit:hover {
+	color: #c7c7c7;
+}
+.btnSubmit {
+	color: #fff;
+	padding: 14px 16px 14px 16px;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0);
+}
 /* Navigation all */
 .navAll {
 	position: relative;
